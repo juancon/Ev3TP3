@@ -1,0 +1,17 @@
+<html>
+ <head>
+  <title>Headlines</title>
+ </head>
+ <body>
+  <h1>Headlines</h1>
+  <h2>El Pais</h2>
+  <hr>
+  <hr>
+   {% for new in news %}
+     <p>{{new.title}}<p/>
+     <hr>
+   {% endfor %}
+
+ </body>
+</html>
+
